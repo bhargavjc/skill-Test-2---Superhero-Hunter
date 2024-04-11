@@ -305,6 +305,13 @@ img{
   height: 40px;
 }
 
+.iconfile
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .hov:hover {
   transition: 2s;
   width: 60px;
