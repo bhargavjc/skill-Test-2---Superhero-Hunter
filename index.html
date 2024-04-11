@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Superhero</title>
+    <link rel="icon" href="icons/man.png" type="image/x-icon">
+   
+    <link rel="stylesheet" href="./page.css">
+</head>
+<body> 
+    <div class="main-container">
+        <div class="container-fluid my-class">
+            <div class="container">
+              
+              <p class="textfooter" style="margin-top: 2rem;">Bhargav Chandegara</p>
+              <div>
+                <ul style="color: white" class="social-links">
+                  <li class="hov">
+                    <a href="https://github.com/bhargavjc">
+                      <img class="link" src="icons/GitHub.png" /></a>
+                  </li>
+                  <li class="hov">
+                    <a href="https://www.linkedin.com/in/bhargav-chandegara-404958100/">
+                      <img class="link" src="icons/LinkedinLogo.png" /></a>
+                  </li>
+                  <li class="hov">
+                    <a href="https://www.instagram.com/sw_er_bhargavjc/">
+                      <img class="link" src="icons/Instagram.png" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <div class="app">
+
+            <!-- header start -->
+            <div class="page-header">
+                <h2 class="page-header-tittle">
+                    <span>SuperHero</span>
+                </h2>
+                <form class="page-header-search">
+                    <input type="text" class="form-control" placeholder="Search" name="search">
+                    <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                    <div class="search-list" id="search-list">
+                    </div>
+                </form>
+            </div>
+            <!-- header ends -->
+
+            <!-- body content begins -->
+            <div class="website-body">
+                <div class="website-body-content">
+                    <div class="website-body-content-photo">
+                    </div>
+
+                    <div class="website-body-content-list">
+                        <div class="name">Search you super hero...</div>
+
+                        <div class="website-body-tabs">
+                            <button type="button" class="single-tab" data-id = '1'>
+                                <span>Powerstats</span>
+                            </button>
+                            <button type="button" class="single-tab" data-id = '2'>
+                                <span>Biography</span>
+                            </button>
+                            <button type="button" class="single-tab" data-id = '3'>
+                                <span>Appearance</span>
+                            </button>
+                        </div>
+
+                        <div class="tab-body">
+                            <ul class="single-tab-body powerstats">
+                                <li>
+                                    <div>
+                                        
+                                        <span>Intelligence</span>
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    <div>
+                                        
+                                        <span>Power</span>
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    <div>
+                                        
+                                        <span>Speed</span>
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    <div>
+                                        
+                                        <span>Combat</span>
+                                    </div>
+                                    
+                                </li>
+                            </ul>
+
+                            <ul class="single-tab-body biography">
+                                <li>
+                                    <span>Full Name</span>
+                                </li>
+                                <li>
+                                    <span>Alert-Egos</span>
+                                </li>
+                                <li>
+                                    <span>Aliases</span>
+                                </li>
+                                <li>
+                                    <span>Place-Of-Birth</span>
+                                </li>
+                            </ul>
+
+                            <ul class="single-tab-body appearance">
+                                <li>
+                                    <span> 
+                                        Gender
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Race
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Height
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Weight
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
